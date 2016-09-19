@@ -49,7 +49,7 @@ This is the New Relic plugin for monitoring Resque developed by Railsware Inc.
 
   ## List your runtime dependencies here. Runtime dependencies are those
   ## that are needed for an end user to actually USE your code.  
-  s.add_dependency('newrelic_plugin', "1.0.3")
+  s.add_dependency('newrelic_plugin', ">= 1.0.3")
   s.add_dependency('resque', ">= 1.24.1")
   s.add_dependency('redis', ">= 3.0.4")
 
